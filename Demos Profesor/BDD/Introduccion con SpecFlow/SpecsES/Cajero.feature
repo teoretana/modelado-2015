@@ -15,10 +15,13 @@ Entonces el saldo restante es de 45 dólares.
 Escenario: Retiro sin saldo
 Dado Una cuenta con saldo 0 dólares
 Cuando se hace un retiro de 55 dólares.
-Entonces el saldo restante es de 0 dólares.
+Entonces no se genera la transaccion
+Y el saldo restante es de 0 dólares.
 
 @retiros
 Escenario: Retiro sin fondos suficientes
 Dado Una cuenta con saldo 200 dólares
 Cuando se hace un retiro de 550 dólares.
-Entonces el saldo restante es de 200 dólares.
+Entonces no se entrega el dinero
+Y se notifica del motivo de la no entrega
+Y el saldo restante es de 200 dólares.

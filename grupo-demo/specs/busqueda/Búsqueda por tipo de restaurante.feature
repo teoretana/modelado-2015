@@ -12,7 +12,6 @@ Dados estos restaurantes
 		|Machupichu | peruana | gourmet | Alajuela|
 		|Spoon | variada | casual | San José|
 		|Doña Lela | tica, típica | casual | Pavas|
-Y sabemos que Ivonne busca desde "San José" 
 
 Escenario: Búsqueda por tipos de restaurante
 Cuando Rosa busca por “tica” 

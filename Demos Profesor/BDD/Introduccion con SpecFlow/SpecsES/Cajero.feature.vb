@@ -97,7 +97,10 @@ testRunner.Given("Una cuenta con saldo 0 dólares", CType(Nothing,String), CType
 testRunner.When("se hace un retiro de 55 dólares.", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Cuando ")
 #End ExternalSource
 #ExternalSource("Cajero.feature",18)
-testRunner.Then("el saldo restante es de 0 dólares.", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Entonces ")
+testRunner.Then("no se genera la transaccion", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Entonces ")
+#End ExternalSource
+#ExternalSource("Cajero.feature",19)
+testRunner.And("el saldo restante es de 0 dólares.", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Y ")
 #End ExternalSource
             Me.ScenarioCleanup
         End Sub
@@ -108,17 +111,23 @@ testRunner.Then("el saldo restante es de 0 dólares.", CType(Nothing,String), CT
          Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("retiros")>  _
         Public Overridable Sub RetiroSinFondosSuficientes()
             Dim scenarioInfo As TechTalk.SpecFlow.ScenarioInfo = New TechTalk.SpecFlow.ScenarioInfo("Retiro sin fondos suficientes", New String() {"retiros"})
-#ExternalSource("Cajero.feature",21)
+#ExternalSource("Cajero.feature",22)
 Me.ScenarioSetup(scenarioInfo)
 #End ExternalSource
-#ExternalSource("Cajero.feature",22)
+#ExternalSource("Cajero.feature",23)
 testRunner.Given("Una cuenta con saldo 200 dólares", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Dado ")
 #End ExternalSource
-#ExternalSource("Cajero.feature",23)
+#ExternalSource("Cajero.feature",24)
 testRunner.When("se hace un retiro de 550 dólares.", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Cuando ")
 #End ExternalSource
-#ExternalSource("Cajero.feature",24)
-testRunner.Then("el saldo restante es de 200 dólares.", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Entonces ")
+#ExternalSource("Cajero.feature",25)
+testRunner.Then("no se entrega el dinero", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Entonces ")
+#End ExternalSource
+#ExternalSource("Cajero.feature",26)
+testRunner.And("se notifica del motivo de la no entrega", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Y ")
+#End ExternalSource
+#ExternalSource("Cajero.feature",27)
+testRunner.And("el saldo restante es de 200 dólares.", CType(Nothing,String), CType(Nothing,TechTalk.SpecFlow.Table), "Y ")
 #End ExternalSource
             Me.ScenarioCleanup
         End Sub

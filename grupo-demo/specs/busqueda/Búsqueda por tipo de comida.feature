@@ -1,5 +1,5 @@
 ﻿#language: es
-Característica: Busqueda de restaurantes
+Característica: Busqueda de restaurantes por tipo de comida
 	Como Rosa, la turista, 
 	quiero buscar restaurantes de acuerdo a mi tipo de comida favorita en mi ciudad.
 

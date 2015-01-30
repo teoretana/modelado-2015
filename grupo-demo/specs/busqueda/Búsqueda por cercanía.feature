@@ -15,8 +15,6 @@ Dados estos restaurantes
 Y sabemos que Ivonne busca desde "San José" 
 
 Escenario: Búsqueda de los 10 restaurantes mas cercanos
-Cuando Rosa busca por “variada” 
-Entonces "Spoon" es parte de los resultados
-Y "McDonalds" es parte de los resultados
-Y "Ivonnes" es parte de los resultados
-Pero "Machupichu" no es parte de los resultados
+Cuando Rosa busca ...
+Entonces ...
+
