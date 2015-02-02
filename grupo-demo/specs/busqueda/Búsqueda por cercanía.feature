@@ -1,5 +1,5 @@
 ﻿#language: es
-Característica: Busqueda de restaurantes
+Característica: Busqueda de restaurantes por cercanía
 	Como Rosa, la turista, 
 	quiero buscar restaurantes de acuerdo a cercanía a mi ciudad.
 
@@ -15,6 +15,6 @@ Dados estos restaurantes
 Y sabemos que Ivonne busca desde "San José" 
 
 Escenario: Búsqueda de los 10 restaurantes mas cercanos
-Cuando Rosa busca ...
-Entonces ...
-
+Cuando Rosa busca "gourmet"
+Entonces "Ivonnes" es parte de los resultados.
+Pero "Machupichu" no es parte de los resultados.
