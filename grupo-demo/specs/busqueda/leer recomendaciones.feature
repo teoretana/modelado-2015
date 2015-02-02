@@ -14,7 +14,8 @@ Y la fecha de hoy es "2015/02/01"
 
 Escenario: Se muestra informacion del restaurante, y se ordena por relevancia y fecha
 """
-No es necesario el registro para buscar y leer opiniones. Se muestra comentarios  calificaciones y sus fechas. Se muestra las personas que calificaron.  Se muestra ordenado por relevancia, de mayor a menor (cantidad de votos a favor) y por fecha (de reciente a anterior)."""
+No es necesario el registro para buscar y leer opiniones. Se muestra comentarios  calificaciones y sus fechas. Se muestra las personas que calificaron.  Se muestra ordenado por relevancia, de mayor a menor (cantidad de votos a favor) y por fecha (de reciente a anterior).
+"""
 
 Cuando alguien busca comentarios sobre "Ivonnes"
 Entonces se muestra la lista ordenada de esta manera "1,4,2"
