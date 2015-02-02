@@ -37,4 +37,4 @@ Pero las publicaciones "Karla Alarado puntuación 7.5" relacionada con los parti
 
 Escenario: Solo una persona registrada puede recibir notificaciones vía email sobre torneos.  
 Cuando Se pública información asociada a los intereses torneos y participantes
-Entonces No debe enviarse un correo electrónico a Milena por que no indicó intereses
+Entonces No debe enviarse un correo electrónico a Milena por que no indicó intereses en el proceso de registro
