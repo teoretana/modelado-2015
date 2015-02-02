@@ -4,6 +4,7 @@ Característica: Información de Torneos
 
 
 Escenario: Para compartir la información debe poseer una cuenta de facebook.
-Dado Que Steven participó en un torneo
-Cuando Se publican las puntuaciones obtenidas por los participantes en la página de la Federación de Surf
-Entonces Steven puede compartir los resultados del torneo cuando indica una cuenta de facebook
+Dado Que Steven participó en el torneo del 27 de enero del 2015
+Cuando Se publican las calificaciones del torneo del 27 de enero del 2015 obtenidas por los participantes en la página de la 
+Federación de Surf
+Entonces Steven puede compartir las calificaciones del torneo del 27 de enero del 2015 cuando indica una cuenta de facebook
