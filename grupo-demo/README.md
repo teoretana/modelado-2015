@@ -13,4 +13,9 @@
 * Unidad
 
 ## Aplicación 
-App para recomendar restaurantes
+"EatIn" es una aplicación móvil social para recomendar y encontrar buenos restaurantes donde estés.
+
+## Folders
+* specs: contiene las especificaciones.
+* app: contiene el código fuente.
+* tests: contiene las pruebas unitarias y de bdd.
