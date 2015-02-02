@@ -10,7 +10,7 @@ j2dd
 -Esteban Soto Soto
 -David Vargas Ramírez
 -David Calvo Delgado
--
+-Leonardo Hernández Núñez
 -
 chdw
 -Daniel Martínez Obando
