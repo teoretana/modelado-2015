@@ -1,8 +1,9 @@
 Integrantes:
 	- Alejandra Vargas
-	- Geovanna D醰ila
+	- Geovanna D谩vila
 	- Herman Camacho
 	- Paulo Viales
 	
 Propuesta:
-	Creaci髇 de una secci髇 dentro del sitio web de la Federaci髇 de Surf de Costa Rica para agilizar el sistema de inscripci髇 de surfistas a los eventos de surf.	
+	Creaci贸n de una secci贸n dentro del sitio web de la Federaci贸n de Surf de Costa Rica para agilizar el sistema 
+	de inscripci贸n de surfistas a los eventos de surf.	
