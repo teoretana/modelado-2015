@@ -1,6 +1,6 @@
 ﻿#language: es
 Característica: Información de Torneos
-	Como Milena público asistente, quiero buscar información de mis surfistas 	favoritos para ver su trayectoria.
+	Como Milena público asistente, quiero buscar información de mis surfistas favoritos para ver su trayectoria.
 
 
 Antecedentes:	
