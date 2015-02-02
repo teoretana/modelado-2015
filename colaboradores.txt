@@ -14,7 +14,7 @@ j2dd
 -
 chdw
 -Daniel Martínez Obando
--Jose Carlos Solano Hidalgo
+-
 -
 -
 -
