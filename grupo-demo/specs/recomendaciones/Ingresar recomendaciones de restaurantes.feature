@@ -22,7 +22,7 @@ Entonces su recomendación no es permitida.
 Escenario: Puede indicar otra recomendación al mismo restaurante luego de una semana.
 
 Dado un usuario twitter @chefpedro
-Y el restaurante "Ivonnes" ya tiene una recomendación de "chefpedro" realizada el "01/01/2014,
+Y el restaurante "Ivonnes" ya tiene una recomendación de "chefpedro" realizada el "01/01/2014",
 Y la fecha de hoy es "10/1/2014"
 Cuando indica un comentario "No me gusta!"
 Y califica con "2"
