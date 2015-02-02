@@ -23,7 +23,9 @@ Pero Un Fan no puede inscribirse a torneos
 
 Escenario: Solo una persona registrada puede recibir notificaciones vía email sobre torneos.
 Dado Que Milena esta registrada como fan
-Cuando Se pública información relacionada con torneos en la página de la federación de surf
-Entonces Se envía una notificación sobre la información relacionada con el torneo al correo de Milena 
+Cuando Se públican fechas de calendarización de eventos, lugar, hora y categrías disponibles para torneos en la página de la 
+federación de surf
+Entonces Se envía un correo electónico con fechas de calendarización de eventos, lugar, hora y categrías disponibles para 
+el evento programado al correo de Milena 
 Pero Si Milena no indicó en el proceso de inscripción que quería recibir notificaciones, no debe enviarse el correo electrónico 
 
