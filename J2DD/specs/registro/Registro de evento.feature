@@ -16,6 +16,6 @@ Dados estos eventos
 
 Escenario: Una pesona no puede registrar un evento al que le falta información (nombre, disciplina, fecha, hora y ubicación)
 Dado un nuevo evento
-Cuando se solicita registrar el evento "IronmanTico" sin la fecha del evento
+Cuando se solicita registrar el evento "IronmanTico" de tipo "Triatlon" que se llevará a cabo en "San José" pero sin la fecha del mismo
 Entonces el evento no es registrado
 Y se indica que falta por completar la fecha del evento.
