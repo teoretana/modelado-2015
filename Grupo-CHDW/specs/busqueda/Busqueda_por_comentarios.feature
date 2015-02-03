@@ -21,3 +21,23 @@ Cuando Luis busca por “Novela”
 Entonces “Un milagro en equilibrio" es parte de los resultados
 Pero “Contra el viento" no es parte de los resultados
 
+
+
+#lenguage: es
+Caracteristica: leer libros mayor cantidad de buenos comentados
+Como Paco, el lector novato, quiero ver la cantidad de comentarios buenos de un libro
+
+Antecedentes:
+Dado testimonios de otros lectores
+|Libro|Género|Autor|Comentarios Buenos|Comentarios Malos|
+|Cien años de soledad|Novela|Gabriel García Marquez|54|60|
+|El señor de los anillos|Fantasía, Ficción|JRR Tolkien|49|34|
+|El Alquimista|Novela|Paulo Cohelo|38|76|
+|Games of Thrones|Ficción|George RR Martin|120|12|
+|Carrie|Terror|Stephen King|32|21|
+
+Escenario: búsqueda por "comentarios buenos"
+
+Cuando la cantidad de comentarios sea "la mayor"
+
+Entonces "Games of Thrones" es parte de los resultados
