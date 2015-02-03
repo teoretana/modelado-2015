@@ -5,6 +5,13 @@ Característica: Información de Torneos
 
 Escenario: Para compartir la información debe poseer una cuenta de facebook.
 Dado Que Steven participó en el torneo del 27 de enero del 2015
-Cuando Se publican las calificaciones del torneo del 27 de enero del 2015 obtenidas por los participantes en la página de la 
+Cuando Se publican las calificaciones del torneo del 27 de enero del 2015 obtenidas por los participantes en la página de la
 Federación de Surf
-Entonces Steven puede compartir las calificaciones del torneo del 27 de enero del 2015 cuando indica una cuenta de facebook
+Entonces Steven puede compartir las calificaciones del torneo del 27 de enero del 2015 con su cuenta de facebook steven@gmail.com
+
+
+Escenario: Para compartir la información debe poseer una cuenta de twitter
+Dado Que Steven participó en el torneo del 27 de enero del 2015
+Cuando Se publican las calificaciones del torneo del 27 de enero del 2015 obtenidas por los participantes en la página de la
+Federación de Surf
+Entonces Steven puede compartir las calificaciones del torneo del 27 de enero del 2015 con su cuenta de twitter @steven
