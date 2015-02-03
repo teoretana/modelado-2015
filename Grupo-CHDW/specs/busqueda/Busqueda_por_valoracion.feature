@@ -41,3 +41,23 @@ Escenario: Búsqueda por "puntuación"
 Cuando la puntuación sea "la más alta"
 
 Entonces "Carrie" es parte de los resultados
+
+
+#language: es
+Caracteristica: búsqueda libros mejor valorados
+Como Luis, el lector juicioso, quiero ver la lista de los libros mejor valorados por país
+
+Antecedentes:
+Dado estos libros
+|Libro|Género|Autor|País|Puntuación|
+|Cien años de soledad|Novela|Gabriel García Marquez|Costa Rica|5|
+|El señor de los anillos|Fantasía, Ficción|JRR Tolkien|USA|4|
+|El Alquimista|Novela|Paulo Cohelo|Brasil|5|
+|Games of Thrones|Ficción|George RR Martin|Costa Rica|3|
+|Carrie|Terror|Stephen King|Panamá|3|
+
+Escenario: Búsqueda por "mejor valoración por país"
+
+Cuando el país es "Costa Rica"
+
+Entonces "Cien años de soledad" es parte de los resultados
