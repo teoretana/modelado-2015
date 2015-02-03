@@ -21,3 +21,23 @@ Cuando Paco busca por “2004”
 Entonces “El camino de los ingleses" es parte de los resultados
 Y “Un milagro en equilibrio" es parte de los resultados
 Pero “Contra el viento" no es parte de los resultados
+
+
+#language: es
+Caracteristica: búsqueda libros mejor valorados
+Como Luis, el lector juicioso, quiero ver la lista de los libros mejor valorados según la preferencia de los lectores
+
+Antecedentes:
+Dado estos libros
+|Libro|Género|Autor|Puntuación|
+|Cien años de soledad|Novela|Gabriel García Marquez|4|
+|El señor de los anillos|Fantasía, Ficción|JRR Tolkien|3|
+|El Alquimista|Novela|Paulo Cohelo|3|
+|Games of Thrones|Ficción|George RR Martin|4|
+|Carrie|Terror|Stephen King|5|
+
+Escenario: Búsqueda por "puntuación"
+
+Cuando la puntuación sea "la más alta"
+
+Entonces "Carrie" es parte de los resultados
