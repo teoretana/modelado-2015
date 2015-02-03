@@ -14,8 +14,8 @@ Dados estos eventos
 |Ruta de los conquistadores | Hicking| 1-2-2015 7 am| Heredia|
 |Clasica Palmarin| Atletismo| 1-2-2015 7 am| Alajuela|
 
-Escenario: Una pesona no puede registrar un evento con información incompleta.
+Escenario: Una pesona no puede registrar un evento al que le falta información (nombre, disciplina, fecha, hora y ubicación)
 Dado un nuevo evento
-Cuando se solicita registrar el evento "IronmanTico" con datos incompletos
+Cuando se solicita registrar el evento "IronmanTico" sin la fecha del evento
 Entonces el evento no es registrado
 Y se indica que falta por completar la fecha del evento.
