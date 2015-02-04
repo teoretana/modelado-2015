@@ -1,13 +1,13 @@
 #lenguaje: es
 
 Escenario: Jose como Administrador desea poder informar a sus clientes sobre una promocion de descuentas en un 10% si traen 4 paquyestes en una semana
-Dados de Grupos
+Dados estos Grupos
 | Grupo | 
 | Clase A |
 | Clase B |
 | Clase C |
 Y estos los Clientes por Grupo
-| Coorporacion Atlas | Clase A|
+| Coorporacion Atlas | Clase A |
 | Jose | Clase C |
 | Raul | Clase B |
 | Deportes Grecias | Clase B |
