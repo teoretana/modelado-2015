@@ -1,6 +1,6 @@
 #lenguaje: es
 
-Características: Como José el dueño de la empresa, quiero darle la opción a sus clientes de recomendar su empresa
+Característica: Como José el dueño de la empresa, quiero darle la opción a sus clientes de recomendar su empresa
 en redes sociales, para aumentar la exposición de la empresa.
 
 Escenario: Una persona debe poder indicar que le gusta la empresa y ser compartida en la red social que se seleccione.
