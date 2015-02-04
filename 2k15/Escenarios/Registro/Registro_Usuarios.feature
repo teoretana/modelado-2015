@@ -1,18 +1,11 @@
-CaracterÌsticas: Como Juan el comprador, quiero poder registrarme en la aplicaciÛn, para poder enviar y recibir paquetes.
+Caracter√≠sticas: Como Juan el comprador, quiero poder registrarme en la aplicaci√≥n, para poder enviar y recibir paquetes.
 
-Escenario: Registro de personas en la empresa
-
-Dado que Juan tiene credenciales v·lidos de Facebook o Twitter
-
+Escenario: Una persona no registrada puede registrarse con una cuenta valida de Facebook o twitter.
+Dado que Juan tiene credenciales v√°lidos de Facebook o Twitter
 Cuando Juan se registre
-
 Entonces se debe aceptar el registro
 
-
-Escenario: ValidaciÛn de registro de una persona ya registrada
-
-Dado que Juan ya est· registrado
-
-Cuando Juan intente volver a registrarse
-
-Entonces no se debe procesar la solicitud
+Escenario: Una persona ya registrada no puede registrarse de nuevo.
+Dado que Juan ya est√° registrado
+Cuando Juan intente volver a registrarse nuevamente
+Entonces se debe mostar un error a Juan indicando que ya est√° registrado.
