@@ -1,6 +1,6 @@
 #lenguaje: es
 
-Características: Como Ana la representante, quiero poder enviar notificaciones a los
+Característica: Como Ana la representante, quiero poder enviar notificaciones a los
 clientes, para brindarles información sobre el estado de sus paquetes.
 
 Escenario: envío de notificación al cambiar un paquete de estado.
