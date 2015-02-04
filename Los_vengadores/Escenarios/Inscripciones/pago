@@ -1,0 +1,29 @@
+Escenario 2 Como Steven el surfista, quiero realizar el pago de la inscripción en el momento en que me inscribo en un torneo.
+
+
+Característica:	Escenario inscripción a torneos.
+	Que se permita el pago en línea con una tarjeta de crédito
+ó débito VISA, MasterCard ó Amex.
+
+Dados	Estos tipos de tarjetas de crédito:
+	VISA
+	MASTER CARD
+	AMEX
+	
+Y	 El surfista posea cualquiera de ellas
+Y 	 Quiera realizar su pago de inscrición
+Cuando 	 La tarjeta se encuentre con crédito o saldo disponible
+Entonces El surfista podrá finalizar el registro de su cupo en la categoría 
+deseada.
+	
+	
+Dados	Estos tipos de tarjetas de crédito:
+	VISA
+	MASTER CARD
+	AMEX
+	
+Y	 El surfista posea cualquiera de ellas.
+Y 	 Quiera realizar su pago de inscrición.
+Cuando 	 La tarjeta no se encuentre con crédito o saldo disponible
+Entonces El surfista solo podrá finalizar registro pero no inscribirse
+en la categoría deseada.
