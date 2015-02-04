@@ -1,6 +1,6 @@
 #lenguaje: es
 
-Característica: Como José el dueño de la empresa, quiero tener un reporte donde pueda ver los movimientos de paquetes de clientes, para poder dar un mejor servicio.
+Característica: Como José el dueño de la empresa, quiero tener un reporte donde pueda ver los movimientos de paquetes de clientes, para poder ver cuanto se esta durando en entregar los paquetes.
 
 Escenario: revisar reporte historico de un cliente y sus pagques
 
@@ -18,5 +18,5 @@ Y el historial muestra estos campos
 | Deportes Grecia | Calzado para Atletismo | 01/11/2014 | 16/11/2014 | $5000 | Implementos Deportivos |
 
 Dado que Jose como dueño desea ver el historico de los paquetes de Deportes Grecia
-Cuando selecciona a Deportes Grecia muestras el historial de los parquetes
-Entonces puede guardar el reporte y mandarlo por mail a Luis de mercadeo
+Cuando selecciona a Deportes Grecia muestras el cuanto se tardo en entregarle los paquetes a Deportes Grecia
+Entonces puede evaluar si es necesario mejorar el tiempo de entrega de paquetes para Deportes Grecia
