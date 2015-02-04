@@ -1,0 +1,40 @@
+Escenario 1	"Como Steven el surfista, quiero registrarme de forma rápida
+ y sencilla en los torneos de surf."
+	
+	
+Característica:	Escenario inscripción a torneos.
+	"Que los participantes a los torneos puedan registrarse 
+digitando su información personal o con una cuenta de 
+Facebook o Twitter. "
+1,1	
+
+Dado	 Que el surfista posea una cuenta en facebook o Twitter.
+Pero	 No esté registrado en el sitio de la fereración.
+Y	 Desee ingresar para realizar su inscripción.
+Entonces Se le permitirá ingresar al sitio para que proceda a agregar sus 
+datos al formulario de registro.
+	
+	
+Dado	 Que un surfista no posea una cuenta en facebook.
+Y	 tampoco en Twiter.
+Cuando	 el mismo ya posea una cuenta valida en cualquier sitio.
+Entonces Podrá continuar con el normal de registro en el sito 
+de la federación."
+	
+	
+	
+Característica: Escenario inscripción a torneos.
+	Solo pueden realizar pagos los usuarios registrados que 
+hayan llenado el formulario de inscripción.
+
+Dado	 Un surfista desee hacer una inscripción.
+Y 	 Ya posea cuenta en Facebook o Twiter.
+Y 	 No haya llenado la fórmula de inscripción.
+Entonces No se le permitirá continuar la misma.
+	
+
+Dado	 Un surfista desee hacer una inscripción.
+Y 	 Ya posea cuenta en Facebook o Twiter.
+Y 	 Haya llenado la fórmula de inscripción.
+Entonces Este podrá continuar con el pago de su inscripción y hacer la 
+reserva de su campo en la categoría
