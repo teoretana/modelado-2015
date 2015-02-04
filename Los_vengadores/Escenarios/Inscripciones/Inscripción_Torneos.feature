@@ -5,20 +5,12 @@ Característica:	Inscripciones
 	
 Antecedentes:	
 Dados los siguientes torneo para inscripción 	
-Lugar | Fecha | Hora | Categoría | Precio por categoría 	
-Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Open Masculino | 13000 	
-Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Open Femenino | 13000 	
-Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Junior Femenino | 7000 	
-Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Junior Masculino | 7000 	
-	
-	
-Escenario: Solo pueden realizar pagos los usuarios registrados que hayan llenado el formulario de inscripción.
-Cuando	Que Steven ingresa con su cuenta de usuario 
-Y Selecciona el torneo "Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Open Masculino | 13000"
-Entonces Debe pagar un monto de 13000 colones por concepto de inscripción
-	
+Nombre del Torneo | Categoría | Precio por categoría 	
+PuertoViejo 2015 | Open Masculino | 13000 	
+PuertoViejo 2015 | Open Femenino | 13000 	
+PuertoViejo 2015 | Junior Femenino | 7000 	
+PuertoViejo 2015 | Junior Masculino | 7000 	
 	
 Escenario: Solo pueden realizar pagos los usuarios registrados que hayan llenado el formulario de inscripción.
-Cuando Que Steven ingresa con su cuenta de usuario 
-Y No selecciona un torneo 
-Entonces No puede realizar el pago por concepto de inscripción 
+Cuando Steven selecciona el torneo "PuertoViejo 2015 | Open Masculino | 13000"
+Entonces Se genera un cobro por 13000 a su cuenta pendiente
