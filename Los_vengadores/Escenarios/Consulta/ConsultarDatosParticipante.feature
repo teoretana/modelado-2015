@@ -7,4 +7,4 @@ Escenario: Un organizador puede consultar los surfistas inscritos para hacer est
 
 Dado que el organizador Jorge consulta un concursante del torneo
 Cuando busca a Steven como participante en la categoría "Boys"
-Entonces visualiza la información personal del surfista
+Entonces visualiza un listado con la información personal de cada surfista inscrito en esa categoría, mostrando el nombre completo, cédula, fecha de inscripción y lateralidad.
