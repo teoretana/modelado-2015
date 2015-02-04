@@ -4,7 +4,7 @@ Característica: Como Juan el comprador, quiero poder buscar mis paquetes, para 
 
 Antecedentes: 
 Dados estos tipos de estado de un paquete
-|Pendiente|Entregado|En proceso de Entrega|Bloqueado
+Pendiente|Entregado|En proceso de Entrega|Bloqueado
 
 Escenario: localización de un paquete mediante un mapa del país
 Dado que Juan quiere buscar sus paquetes
