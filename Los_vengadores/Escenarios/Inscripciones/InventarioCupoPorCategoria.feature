@@ -1,4 +1,4 @@
-#language: es
+#language: es 
 
 Característica: inscripciones
 Como Jorge el organizador, quiero que las inscripciones no sobrepasen el límite establecido en cada categoría.
