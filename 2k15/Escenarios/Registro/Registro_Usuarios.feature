@@ -1,3 +1,5 @@
+#lenguaje: es
+
 Característica: Como Juan el comprador, quiero poder registrarme en la aplicación, para poder enviar y recibir paquetes.
 
 Escenario: Una persona no registrada puede registrarse con una cuenta valida de Facebook o twitter.
