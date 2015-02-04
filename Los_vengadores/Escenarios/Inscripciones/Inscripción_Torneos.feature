@@ -12,13 +12,13 @@ Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Junior Femenino | 7000
 Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Junior Maculino | 7000 	
 	
 	
-Escenario:	Solo pueden realizar pagos los usuarios registrados que hayan llenado el formulario de inscripción.
+Escenario: Solo pueden realizar pagos los usuarios registrados que hayan llenado el formulario de inscripción.
 Cuando	Que Steven ingresa con su cuenta de usuario 
-Y 	Selecciona el torneo "Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Open Masculino | 13000"
-Entonces 	Debe pagar un monto de 13000 colones por concepto de inscripción
+Y Selecciona el torneo "Puerto Viejo, Limón | 12 de enero del 2014 | 10:00 am | Open Masculino | 13000"
+Entonces Debe pagar un monto de 13000 colones por concepto de inscripción
 	
 	
-Escenario:	Solo pueden realizar pagos los usuarios registrados que hayan llenado el formulario de inscripción.
-Cuando	Que Steven ingresa con su cuenta de usuario 
-Y 	No selecciona un torneo 
-Entonces 	No puede realizar el pago por concepto de inscripción 
+Escenario: Solo pueden realizar pagos los usuarios registrados que hayan llenado el formulario de inscripción.
+Cuando Que Steven ingresa con su cuenta de usuario 
+Y No selecciona un torneo 
+Entonces No puede realizar el pago por concepto de inscripción 
