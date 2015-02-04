@@ -1,7 +1,7 @@
 #lenguaje: es
 
 Escenario: Jose como Administrador desea poder informar a sus clientes sobre una promocion de descuentas en un 10% si traen 4 paquyestes en una semana
-Datos de Grupos
+Dados de Grupos
 | Grupo | 
 | Clase A |
 | Clase B |
