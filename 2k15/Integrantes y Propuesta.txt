@@ -1,11 +1,11 @@
 Integrantes del grupo 2k15
-- Verny Mora Jiménez
-- Oscar Eduardo Jiménez Carmona
-- José Miguel Marchena Martinez
+- Verny Mora JimÃ©nez
+- Oscar Eduardo JimÃ©nez Carmona
+- JosÃ© Miguel Marchena Martinez
 - Joan Piedra Delgado
 - Bryan Vargas Torres
 
 Propuesta:
-La empresa XY la cual se dedica al envío de paquetes
-dentro de Costa Rica (courier) requiere de una aplicación
+La empresa Package Express la cual se dedica al envÃ­o de paquetes
+dentro de Costa Rica (courier) requiere de una aplicaciÃ³n
 la cual le permita administrar sus actividades. 
